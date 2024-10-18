@@ -6,7 +6,7 @@
 
 main:
   - title: "Career & Education"
-    url: /cv/
+    url: /Career-Education/
 
   - title: "Portfolio"
     url: /portfolio/

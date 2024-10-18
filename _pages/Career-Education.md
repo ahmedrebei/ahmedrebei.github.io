@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "Career & Education"
-permalink: /cv/
+permalink: /Career-Education/
 author_profile: true
 redirect_from:
-  - /resume
+  - /cv
 ---
 
 <!-- {% include base_path %} -->
