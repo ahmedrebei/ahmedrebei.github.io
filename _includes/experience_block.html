@@ -1,0 +1,13 @@
+<div style="display: flex; align-items: center;">
+    <div style="width: 15%; display: flex; justify-content: center; align-items: center;">
+        <img src="{{ include.logo_src }}" alt="Institute Logo" style="height: 3em">
+    </div>
+    <div style="width: 85%;">
+        <strong>{{ include.job_title }}</strong><br>
+        <a href="{{ include.company_url }}" target="_blank">
+            <em>{{ include.company_name }}</em>
+        </a>
+        | 🗓️ {{ include.date_range }}<br>
+        <span style="color: gray;">📍 {{ include.location }}</span>
+    </div>
+</div>

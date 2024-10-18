@@ -1,0 +1,27 @@
+<div style="display: flex; align-items: center;">
+    <div style="width: 15%; display: flex; justify-content: center; align-items: center;">
+        <img src="{{ include.logo_src }}" alt="Institute Logo" style="height: 3em">
+    </div>
+    <div style="width: 25%;">
+        <strong>{{ include.institution_name }}</strong><br>
+        <em>{{ include.degree_name }}</em><br>
+        <em style="font-size: smaller;">{{ include.major }}</em><br>
+        <span style="color: gray;">📍 {{ include.location }}</span>
+    </div>
+    <div style="width: 60%;">
+        <ul>
+            {% if include.gpa %}
+                <li><strong>GPA:</strong> {{ include.gpa }}</li>
+            {% endif %}
+            {% if include.relevant_courses %}
+                <li><strong>Relevant Coursework:</strong> {{ include.relevant_courses }}</li>
+            {% endif %}
+            {% if include.thesis_title %}
+                <li><strong>Thesis Title:</strong> {{ include.thesis_title }}</li>
+            {% endif %}
+            {% if include.additionnal_info %}
+                <li><strong>Additionnal Infomation:</strong> {{ include.additionnal_info }}</li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
