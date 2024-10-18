@@ -15,7 +15,7 @@ main:
     url: /publications/
 
   - title: "Blog Posts"
-    url: /year-archived/
+    url: /blog-posts/
 
   # - title: "Guide"
   #   url: /markdown/
